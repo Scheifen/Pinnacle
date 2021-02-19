@@ -1,0 +1,97 @@
+.report-l {
+    color: antiquewhite;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.6em;
+    border: 0.5px;
+    border-color: darkred;
+    border-style: solid;
+    padding: 1%;
+    width: 50%;
+}
+
+.report-r {
+    color: antiquewhite;
+    text-align: left;
+    margin-right: 10%;
+    font-size: 1.6em;
+    border: 0.5px;
+    border-color: darkred;
+    border-style: solid;
+    padding: 1%;
+    width: 50%;
+    margin-left: auto;
+}
+
+.sig-r {
+    font-style: oblique;
+    color: antiquewhite;
+    text-align: right;
+    padding-top: 2%;
+    font-size: 1.2em;
+}
+
+.sig-l {
+    font-style: oblique;
+    color: antiquewhite;
+    text-align: right;
+    padding: 2%;
+    font-size: 1.2em;
+}
+
+.speak {
+    font-style: oblique;
+    color: antiquewhite;
+    text-align: center;
+    padding: 2%;
+    font-size: 1.5em;
+}
+
+.speak:after {
+    margin-top: 2%;
+    content: " ";
+    display: block;
+    background-color: darkred;
+    height: 0;
+    width: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid black;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#scalp {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+    color: darkred;
+}
+
+#organs {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#toes {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#body {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background: linear-gradient(180deg, #2c2c2c, #000000, #000000);
+    padding-top: 1%;
+}
+
+h1 {
+    font-size: 3em;
+    text-decoration: overline;
+    transform: rotate(180deg);
+}
