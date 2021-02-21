@@ -61,6 +61,21 @@
     margin-right: auto;
     margin-left: auto;
 }
+.whisper{
+    color:#030000;
+    text-align: center;
+    padding: 2%;
+    font-size: 1.5em;
+    transition: 2s;
+}
+.whisper:hover{
+    color:#0a0000;
+}
+.whisperAct{
+    color:#0a0000;
+    display: block;
+    position: absolute;
+}
 
 #scalp {
     margin-left: auto;
@@ -82,7 +97,7 @@
     position: relative;
 }
 
-#body {
+body {
     margin-left: auto;
     margin-right: auto;
     position: relative;
